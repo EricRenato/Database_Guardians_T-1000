@@ -2,9 +2,14 @@
 
 **An experimental governance and investigation layer for AI agents working with relational data.**
 
+<p align="center">
+  <img src="assets/gif-db-guardian.gif" alt="Conceptual Database Guardians mascot illustration; not a running product demo" width="520">
+</p>
+<p align="center"><em>Concept illustration, not a product interface or live demonstration.</em></p>
+
 Database Guardians explores how structured database context, constrained query access, and investigation traces can help an AI agent investigate a data discrepancy. The current research example is a synthetic financial reconciliation case.
 
-> **Project status:** this public repository is a documentation showcase. It does not distribute the local prototype or provide a runnable demonstration. The prototype and its supporting artifacts remain under review.
+> **Project status:** this public repository is a research showcase. It includes a synthetic relational schema and a conceptual illustration, but does not distribute the local prototype or provide a runnable demonstration. The prototype and its supporting artifacts remain under review.
 
 ## Problem
 
@@ -39,7 +44,7 @@ Earlier benchmark entries are not included because their provenance has not yet 
 ## What is implemented and what is not
 
 - **Present in the local research workspace:** a synthetic SQLite schema and scenario, agent/provider interface, Guardian adapter, evaluator, benchmark runner, and saved result artifact.
-- **Included in this public repository:** documentation and the existing license only.
+- **Included in this public repository:** documentation, a synthetic SQL schema containing base tables only, and a conceptual mascot illustration.
 - **Not established by current evidence:** general effectiveness, production database load protection, enterprise integrations, multi-database support, statistical significance, or commercial readiness.
 - **Not included in this showcase:** local engine, raw run traces, database files, evaluator Ground Truth, credentials, and integration configuration.
 
@@ -57,3 +62,5 @@ The repository already contains a LICENSE file with the MIT License text. This p
 
 - README.md — public project overview and research status.
 - LICENSE — the MIT license text currently present in this repository.
+- examples/financial_schema.sql — synthetic base-table definitions; no data or investigative view.
+- assets/gif-db-guardian.gif — conceptual illustration, not product UI.
