@@ -19,7 +19,8 @@ flowchart LR
   U[Investigation request] --> A[Investigation agent]
   A --> G[Guardian: context, query checks, trace]
   G --> D[(Synthetic SQLite database)]
-  D --> G --> A
+  D --> G
+  G --> A
   A --> R[Structured investigation report]
   R --> E[Evaluator]
   T[Evaluator-only Ground Truth] --> E
