@@ -55,4 +55,4 @@ The repository already contains a LICENSE file with the MIT License text. This p
 ## Repository contents
 
 - README.md — public project overview and research status.
-- LICENSE — existing MIT license for repository contents.
+- LICENSE — the MIT license text currently present in this repository.
