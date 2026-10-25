@@ -56,7 +56,7 @@ The next research step is to reconcile experiment conditions and benchmark prove
 
 ## Publication and licensing status
 
-The repository already contains a LICENSE file with the MIT License text. This proposed README update does not change that file and does not publish or offer the local prototype. The licensing and ownership status of materials outside this repository are not addressed here. No decision has been made about a future open-source, open-core, or proprietary product model.
+The repository includes the MIT License for the materials distributed in this repository. The local prototype and other unpublished materials are not included in this showcase. No decision has been made about a future open-source, open-core, or proprietary product model.
 
 ## Repository contents
 
